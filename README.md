@@ -72,36 +72,36 @@ Create/Update Purchase
 ```
 ## Available Endpoint
 ### Auth
-POST    | /api/auth/register_
-POST    | /api/auth/login_
-POST    | /api/auth/logout_
+POST    | /api/auth/register
+POST    | /api/auth/login
+POST    | /api/auth/logout
 
 ### User 
-GET     | /api/users/_
-POST    | /api/users/_
-GET     | /api/users/:id_
-PUT     | /api/users/:id_
-DELETE  | /api/users/:id_
+GET     | /api/users/
+POST    | /api/users/
+GET     | /api/users/:id
+PUT     | /api/users/:id
+DELETE  | /api/users/:id
 
 ### Product 
-GET     | /api/products/_
-POST    | /api/products/_
-GET     | /api/products/:id_
-PUT     | /api/products/:id_
-DELETE  | /api/products/:id_
+GET     | /api/products/
+POST    | /api/products/
+GET     | /api/products/:id
+PUT     | /api/products/:id
+DELETE  | /api/products/:id
 
 ### Cart 
-GET     | /api/carts/_
-POST    | /api/carts/add_
-POST    | /api/carts/remove/:productId_
-POST    | /api/carts/pay_
+GET     | /api/carts/
+POST    | /api/carts/add
+POST    | /api/carts/remove/:productId
+POST    | /api/carts/pay
 
 ### Purchase 
-GET     | /api/purchase/_
-POST    | /api/purchase/_
-GET     | /api/purchase/:id_
-PUT     | /api/purchase/:id_
-DELETE  | /api/purchase/:id_
+GET     | /api/purchase/
+POST    | /api/purchase/
+GET     | /api/purchase/:id
+PUT     | /api/purchase/:id
+DELETE  | /api/purchase/:id
 
 ## Migration
 ### Using command line

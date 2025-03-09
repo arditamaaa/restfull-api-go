@@ -28,11 +28,11 @@ Login payload
 ```
 
 ## Example Request Body Product 
-Create/Update Purchase
+Create/Update Product
 ```JSON
 {
-	"name": "Tunai",
-	"price":120000
+	"name": "Sepatu",
+	"price": 185000
 }
 ```
 
